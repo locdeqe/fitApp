@@ -1,0 +1,18 @@
+@import url('../assets/main');
+@progressBarHeight: 10px;
+
+.proggresBar {
+    width: 100%;
+    height: @progressBarHeight;
+    background: @mainLight;
+    display: flex;
+    flex: 1;
+    border-radius: @boxBorderRadius;
+    overflow: hidden;
+}
+
+.progressBar__succsess {
+    height: @progressBarHeight;
+    transition: @mainTransition;
+    background: @mainColor;
+}

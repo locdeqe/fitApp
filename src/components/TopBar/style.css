@@ -1,0 +1,7 @@
+.topBar {
+  display: flex;
+  width: 100%;
+}
+.topBar li {
+  list-style: none;
+}

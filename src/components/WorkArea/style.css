@@ -1,0 +1,4 @@
+.workArea {
+  display: grid;
+  grid-template-rows: 150px 1fr;
+}

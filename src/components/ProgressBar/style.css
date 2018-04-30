@@ -1,0 +1,14 @@
+.proggresBar {
+  width: 100%;
+  height: 10px;
+  background: #5ddef4;
+  display: flex;
+  flex: 1;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.progressBar__succsess {
+  height: 10px;
+  transition: 0.75s;
+  background: #00acc1;
+}
