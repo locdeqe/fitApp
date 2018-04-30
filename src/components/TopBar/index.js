@@ -5,9 +5,9 @@ import './style.css'
 class TopBar extends React.PureComponent {
   render () {
     const menuList = [
-      {href: '/', text: 'Пункт 1', 'id': 1},
-      {href: 'point1', text: 'Пункт 2', 'id': 2},
-      {href: 'point2', text: 'Пункт 3', 'id': 3},
+      {href: '/', text: 'Home', 'id': 1},
+      {href: 'diet', text: 'Diet', 'id': 2},
+      {href: 'training', text: 'Training', 'id': 3},
     ]
 
     const menuListElement = menuList.map((element) => (
